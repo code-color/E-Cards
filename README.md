@@ -13,7 +13,7 @@ Step2: Now you login as candidate with following details
 Email: test@test.com
 Password: testtest
 ```
-Sign-In.
+*Sign-In*
 
 When you try to Sign-in with your Email-Id A Email will be sent to your Registered E-mail to activate your account.
 
