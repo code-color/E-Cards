@@ -10,8 +10,8 @@ Few Accouts have already been created for Testing and Demo purpose.
 Step 1: Create a database called e-cards and import everything from database.sql file. Next check your db.php file for database connection configuration
 Step2: Now you login as candidate with following details
 ```php
-Email: oleg@test.com
-Password: 123456
+Email: test@test.com
+Password: testtest
 ```
 Sign-In.
 
