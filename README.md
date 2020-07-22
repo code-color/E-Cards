@@ -31,3 +31,6 @@ Candidates Email Confirmation:
 possibly on line no:123 change **http://localhost/test/** to the path where you have downloaded the code.
 
 Also go to ```view-profile.php``` and change the same line of code at line no:110
+
+**QR Scanner**
+We have used a HTML5 QR Scanner which works with most of the browsers using webcam. credits to instascan https://github.com/schmich/instascan.
