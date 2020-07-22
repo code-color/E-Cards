@@ -20,7 +20,8 @@ When you try to Sign-in with your Email-Id A Email will be sent to your Register
 
 Candidates Email Confirmation:
 >You CANNOT send emails from localhost server. So when you create a new candidate account it will not send any emails. So you must go to database, find that user and set ```active=1``` in order to make that account login. 
->If you are testing on real server then you can uncomment the following code from ```adduser.php```
+>If you are testing on real server then you can uncomment the following code from ```adduser.php```.
+
 ```php
 		// Send Email
 
