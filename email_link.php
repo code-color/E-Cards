@@ -42,7 +42,7 @@ if(isset($_POST)) {
 			 	<a href="yourdomain/verify1.php?email='.$email.'">Verify Email</a>
 			 	<br>
 			 	<p>Or else click on this Link</p>
-			 	<a href="yourdomain/bizid/verify1.php?email='.$email.'">yourdomain/bizid/verify1.php?email='.$email.'</a>
+			 	<a href="yourdomain/verify1.php?email='.$email.'">yourdomain/verify1.php?email='.$email.'</a>
 			 		
 			 </body>
 			 </html>
