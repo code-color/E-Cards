@@ -70,6 +70,9 @@ Candidates Email Confirmation:
 			exit();
    ```
 
+Along with adduser.php, When you are testing on real server go to ```updateforgotpassword``` and ```email_link.php``` to change the from address {example@mail.com} and {yourdomain} to your email-id and your domain path.
+
+
 **QR Code**
 >The QR right now will be pointing to "http://localhost/test/view-profile.php" . So you wont be able to load it, Go to ```dashboard.php``` and change the following code.
 
@@ -82,6 +85,7 @@ possibly on line no:123 change **http://localhost/test/** to the path where you 
 Also go to ```view-profile.php``` and change the same line of code at line no:110
 
 **QR Scanner**
+
 We have used a HTML5 QR Scanner which works with most of the browsers using webcam. credits to instascan https://github.com/schmich/instascan.
 
 
