@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 20, 2020 at 12:22 PM
+-- Generation Time: Jul 22, 2020 at 02:00 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bizid`
+-- Database: `e-cards`
 --
 
 -- --------------------------------------------------------
@@ -40,7 +40,9 @@ CREATE TABLE `contacts` (
 INSERT INTO `contacts` (`id_contact`, `id_friend`, `id_user`) VALUES
 (4, 13, 12),
 (9, 14, 12),
-(10, 12, 12);
+(10, 12, 12),
+(15, 12, 13),
+(16, 13, 13);
 
 -- --------------------------------------------------------
 
@@ -69,10 +71,11 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id_user`, `email`, `password`, `firstname`, `lastname`, `contactno`, `hash`, `active`, `company`, `position`, `fax`, `logo`) VALUES
 (12, 'avvari@gmail.com', 'testtest', 'Praneeth', 'Avvari', '8559045346', 'a7dd62a4a23dd89ae07475dae21d96fa', 1, 'dcba', 'abcd', '205-520-364', '5ee29fca7322c.png'),
-(13, 'test@test.com', 'testtest', 'test', 'test', '8559045346', 'e8dd977bca7ae0971fb9ca8e6b006d24', 0, '', '', '', ''),
+(13, 'test@test.com', 'testtest', 'test', 'test', '1234567890', 'e8dd977bca7ae0971fb9ca8e6b006d24', 1, 'E-Cards', 'owner', '123-123-123', '5f158b2926199.png'),
 (14, 'vest@vest.com', 'vestvest', 'vest', 'vest', '8559045346', '4ef6b44831f43d17165bf0b23e1d9b74', 1, 'QWERTY', 'Tester', '85-962-265', '5ee3b3ed4d173.png'),
 (16, '', '', '', '', '', 'ed3e0728f32ea533e3595486675bff32', 0, '', '', '', '5ee29eff55075.png'),
-(17, 'sachdevamehak24@gmail.com', 'testtest', 'mehak', 'sachdeva', '7087728884', '323a839b8abddf96b62b3e864338ac65', 1, '', '', '', '5ee29eff55075.png');
+(17, 'sachdevamehak24@gmail.com', 'testtest', 'mehak', 'sachdeva', '7087728884', '323a839b8abddf96b62b3e864338ac65', 1, '', '', '', '5ee29eff55075.png'),
+(18, 'praneeth.avvari@yahoo.com', 'testtest', 'e card', 'test', '8559045346', '66aa439eff1fa36226840c5f17198116', 1, '', '', '', '5ee29eff55075.png');
 
 --
 -- Indexes for dumped tables
@@ -99,13 +102,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id_contact` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_contact` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
