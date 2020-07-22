@@ -43,7 +43,7 @@ if(isset($_POST)) {
 
 			// $to = $email;
 
-			// $subject = "BizID - Confirm Your Email Address";
+			// $subject = "E-Cards - Confirm Your Email Address";
 
 			// $message = '
 			
@@ -52,10 +52,10 @@ if(isset($_POST)) {
 			// 	<title>Confirm Your Email</title>
 			// <body>
 			// 	<p>Click Link To Confirm</p>
-			// 	<a href="http://werkid.com/bizid/verify.php?hash='.$hash.'">Verify Email</a>
+			// 	<a href="yourdomain/verify.php?hash='.$hash.'">Verify Email</a>
 			// 	<br>
 			// 	<p>Or else click on this Link</p>
-			// 	<a href="http://werkid.com/bizid/verify.php?hash='.$hash.'">http://werkid.com/bizid/verify.php?hash='.$hash.'</a>
+			// 	<a href="yourdomain/verify.php?hash='.$hash.'">yourdomain/verify.php?hash='.$hash.'</a>
 			 		
 			// </body>
 			// </html>
@@ -64,7 +64,7 @@ if(isset($_POST)) {
 			// $headers[] = 'MIME-VERSION: 1.0';
 			// $headers[] = 'Content-type: text/html; charset=iso-8859-1';
 			// $headers[] = 'To: '.$to;
-			// $headers[] = 'From: bizid@werkid.com';
+			// $headers[] = 'From: example@mail.com';
 			 //you add more headers like Cc, Bcc;
 
 			// $result = mail($to, $subject, $message, implode("\r\n", $headers)); // \r\n will return new line. 
