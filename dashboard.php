@@ -140,7 +140,7 @@ require_once("db.php");
 
 	
 	  
-	<a href="scan.php" class="float">
+	<a href="scan.html" class="float">
 <i class="fa fa-plus my-float"></i>
 </a>	 
 	  
